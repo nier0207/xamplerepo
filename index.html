@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Wes | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>&lt;/Nier.Dev&gt;</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <div class="lightmode">
+            <i class='bx bx-sun' id="sun"></i>
+            <i class='bx bx-moon' id="moon"></i>
+        </div>
+
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+
+                    <p class="home-eyebrow">Welcome to my portfolio</p>
+                    <h1>Hi, I'm <span class="name">John</span></h1>
+                    <h3>I'm an aspiring <span class="typed-role" id="typedRole">web developer</span><span class="cursor-blink">|</span></h3>
+                    <p>A passionate web developer with a strong foundation in frontend technology.
+                        I enjoy creating responsive and user-friendly websites that provide an excellent user experience.
+                    </p>
+
+             <div class="social-icons">
+                <a href="#" aria-label="Instagram">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+                <a href="#" aria-label="TikTok">
+                    <i class="bx bxl-tiktok"></i>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+
+            <div class="btn-class">
+                <a href="cv.pdf" download class="btn">Download CV</a>
+                <a href="#projects" class="btn btn-outline">View Projects</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="hero-avatar.svg" alt="John's avatar">
+        </div>
+
+        <a href="#about" class="scroll-down" aria-label="Scroll down">
+            <i class='bx bx-chevron-down'></i>
+        </a>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img" data-reveal>
+            <img src="about-avatar.svg" alt="About John">
+        </div>
+
+        <div class="about-content">
+            <h2 class="about-title" data-reveal>About Me</h2>
+            <p class="about-text" data-reveal>I am currently developing my skills in programming,
+                    database design, and interface development. My goal is to grow as a developer and contribute to meaningful technology projects.
+                    Outside of core development, I actively explore graphic design, web design, and app creation as creative outlets.
+                    These hobbies allow me to refine my eye for detail and experiment with user-centric layouts,
+                    helping me bridge the gap between functional code and aesthetic design.
+                    <br><br>
+                    Driven by a passion for continuous learning, I approach every project with a focus on problem-solving and clean execution.
+                    Whether I am refining a database or sketching a new interface, my commitment is to deliver quality work that balances technical
+                    stability with a seamless user experience. I am eager to take on new challenges that will push my boundaries and allow me to
+                    contribute to the evolving tech landscape.
+            </p>
+
+            <ul class="quick-facts" data-reveal>
+                <li><i class="bx bx-map-pin"></i> Based in Bolinao, Pangasinan, PH</li>
+                <li><i class="bx bx-graduation-cap"></i> Aspiring Web &amp; Software Developer</li>
+                <li><i class="bx bx-target-lock"></i> Focused on frontend development &amp; UI/UX</li>
+                <li><i class="bx bx-check-circle"></i> Open to internships &amp; junior developer roles</li>
+            </ul>
+
+            <div class="stats-row" data-reveal>
+                <div class="stat">
+                    <span class="stat-num" data-count="12">0</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="6">0</span>
+                    <span class="stat-label">Languages &amp; Tools</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num" data-count="100">0</span>
+                    <span class="stat-label">% Curiosity</span>
+                </div>
+            </div>
+
+            <h1 data-reveal>What I'm Passionate About</h1>
+            <div class="cards">
+
+                <div class="card" data-reveal>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Graphic Design</h3>
+                </div>
+
+                <div class="card" data-reveal>
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>Web Design</h3>
+                </div>
+
+                <div class="card" data-reveal>
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Software</h3>
+                </div>
+
+                <div class="card" data-reveal>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>App development</h3>
+                </div>
+
+            </div>
+
+            <h1 data-reveal>Currently Learning</h1>
+            <div class="tag-list" data-reveal>
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">UI/UX Design</span>
+                <span class="tag">Figma</span>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skill-title" data-reveal>My Skills</h2>
+
+        <div class="skills-box">
+            <!-- Main Coding Image -->
+            <img class="skills-image" src="image-lang/coding.png" alt="skills-image" data-reveal>
+
+            <!-- Designer Section -->
+            <div class="designer" data-reveal>
+                <h1 class="gradient">Designer <i class='bx bx-laptop'></i></h1>
+                <p>I have expertise in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD. My strength lies in blending aesthetics with functionality to create seamless user experiences.</p>
+            </div>
+
+            <!-- Coder Section -->
+            <div class="coder" data-reveal>
+                <h1 class="gradient">Coder <i class='bx bx-code-block'></i></h1>
+                <p>I'm skilled in HTML, CSS, JavaScript, and frameworks like React and Node.js. I also have experience with database management using MongoDB and MySQL.</p>
+            </div>
+        </div>
+
+        <div class="slider" reverse="true" style="
+            --quantity: 18;
+            --width: 100px;
+            --height: 100px;
+            ">
+            <div class="list">
+
+                <div class="item" style="--position: 1"><img src="image-lang/html.png" alt="HTML"></div>
+                <div class="item" style="--position: 2"><img src="image-lang/css-3.png" alt="CSS3"></div>
+                <div class="item" style="--position: 3"><img src="image-lang/java-script.png" alt="JavaScript"></div>
+                <div class="item" style="--position: 4"><img src="image-lang/java.png" alt="Java"></div>
+                <div class="item" style="--position: 5"><img src="image-lang/php.png" alt="PHP"></div>
+                <div class="item" style="--position: 6"><img src="image-lang/python.png" alt="Python"></div>
+                <div class="item" style="--position: 7"><img src="image-lang/c-sharp.png" alt="C#"></div>
+                <div class="item" style="--position: 8"><img src="image-lang/science.png" alt="Science"></div>
+                <div class="item" style="--position: 9"><img src="image-lang/c-.png" alt="C"></div>
+
+                <div class="item" style="--position: 10"><img src="image-lang/html.png" alt="HTML"></div>
+                <div class="item" style="--position: 11"><img src="image-lang/css-3.png" alt="CSS3"></div>
+                <div class="item" style="--position: 12"><img src="image-lang/java-script.png" alt="JavaScript"></div>
+                <div class="item" style="--position: 13"><img src="image-lang/java.png" alt="Java"></div>
+                <div class="item" style="--position: 14"><img src="image-lang/php.png" alt="PHP"></div>
+                <div class="item" style="--position: 15"><img src="image-lang/python.png" alt="Python"></div>
+                <div class="item" style="--position: 16"><img src="image-lang/c-sharp.png" alt="C#"></div>
+                <div class="item" style="--position: 17"><img src="image-lang/science.png" alt="Science"></div>
+                <div class="item" style="--position: 18"><img src="image-lang/c-.png" alt="C"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="section-title" data-reveal>My Projects</h2>
+
+        <div class="filter-bar" data-reveal>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card card1" data-category="web" data-reveal>
+                <img src="image-proj/proj1.png" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A responsive web application built with HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+            <div class="project-card card2" data-category="web" data-reveal>
+                <img src="image-proj/proj2.png" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A database-driven application using C# and SQL Server.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+            <div class="project-card card3" data-category="mobile" data-reveal>
+                <img src="image-proj/proj3.svg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A mobile app prototype designed with modern UI principles.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+            <div class="project-card card4" data-category="design" data-reveal>
+                <img src="image-proj/proj4.svg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>A graphic design project showcasing branding and visual identity.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+            <div class="project-card card5" data-category="mobile" data-reveal>
+                <img src="image-proj/proj5.svg" alt="Project 5">
+                <h3>Project 5</h3>
+                <p>A mobile app prototype designed with modern UI principles.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+            <div class="project-card card6" data-category="design" data-reveal>
+                <img src="image-proj/proj6.svg" alt="Project 6">
+                <h3>Project 6</h3>
+                <p>A graphic design project showcasing branding and visual identity.</p>
+                <a href="#" class="btn-view">View Project</a>
+            </div>
+
+        </div>
+
+        <p class="filter-empty" id="filterEmpty">No projects in this category yet.</p>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title" data-reveal>Let's Work Together</h2>
+        <div class="contact-content">
+            <div class="contact-info" data-reveal>
+                <h3>Get in Touch</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+                    Feel free to reach out!
+                </p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>secret@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+63-912-345-6789</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bolinao, Pangasinan</span>
+                    </div>
+                </div>
+
+                <p>Connect with me on social media!</p>
+                <div class="social-icons">
+                    <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" target="_blank" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form" data-reveal>
+
+                <form id="contactForm" novalidate>
+                    <p>Name</p>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <span class="field-error" id="nameError"></span>
+
+                    <p>Email</p>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <span class="field-error" id="emailError"></span>
+
+                    <p>Message</p>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    <span class="field-error" id="messageError"></span>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#home" class="logo"><span>&lt;/Nier.Dev&gt;</span></a>
+                <p>Aspiring web developer building responsive, user-friendly experiences from Bolinao, Pangasinan.</p>
+                <div class="social-icons footer-socials">
+                    <a href="#" aria-label="Instagram"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="bx bxl-tiktok"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get in Touch</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i> secret@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +63-912-345-6789</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Bolinao, Pangasinan</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2024</span> John Wes. All rights reserved.</p>
+            <p class="footer-credit">Designed &amp; built with care.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>
+
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

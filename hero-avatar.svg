@@ -1,0 +1,35 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1220"/>
+      <stop offset="55%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#7c5cff"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#c4b5fd" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bracketGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="500" fill="url(#heroGrad)"/>
+  <rect width="500" height="500" fill="url(#heroGlow)"/>
+
+  <circle cx="250" cy="250" r="190" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1.5"/>
+  <circle cx="250" cy="250" r="155" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+
+  <circle cx="95" cy="120" r="5" fill="#ffffff" opacity="0.35"/>
+  <circle cx="420" cy="150" r="4" fill="#ffffff" opacity="0.3"/>
+  <circle cx="80" cy="360" r="4" fill="#ffffff" opacity="0.25"/>
+  <circle cx="430" cy="370" r="6" fill="#ffffff" opacity="0.3"/>
+
+  <text x="250" y="285" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="140" font-weight="700"
+        text-anchor="middle" fill="url(#bracketGrad)">&lt;/&gt;</text>
+
+  <rect x="180" y="315" width="9" height="30" rx="2" fill="#ffffff" opacity="0.75">
+    <animate attributeName="opacity" values="0.75;0.1;0.75" dur="1.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

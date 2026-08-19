@@ -1,0 +1,36 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0e17"/>
+      <stop offset="55%" stop-color="#2f2570"/>
+      <stop offset="100%" stop-color="#5a45c9"/>
+    </linearGradient>
+    <linearGradient id="monoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="60%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="500" height="600" fill="url(#aboutGrad)"/>
+  <rect width="500" height="600" fill="url(#grid)"/>
+
+  <circle cx="80" cy="100" r="55" fill="#7c5cff" opacity="0.10"/>
+  <circle cx="430" cy="500" r="85" fill="#a78bfa" opacity="0.08"/>
+
+  <text x="250" y="325" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="180" font-weight="700"
+        text-anchor="middle" fill="url(#monoGrad)">JW</text>
+
+  <rect x="185" y="360" width="130" height="4" rx="2" fill="url(#monoGrad)" opacity="0.85"/>
+
+  <text x="250" y="410" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="23" font-weight="500"
+        text-anchor="middle" fill="#ffffff" opacity="0.75" letter-spacing="2.5">FRONTEND DEVELOPER</text>
+
+  <g transform="translate(150,450)" opacity="0.85">
+    <rect width="200" height="54" rx="12" fill="#ffffff" opacity="0.07"/>
+    <text x="18" y="34" font-family="monospace" font-size="18" fill="#c4b5fd">&lt;code&gt; clean; &lt;/&gt;</text>
+  </g>
+</svg>
